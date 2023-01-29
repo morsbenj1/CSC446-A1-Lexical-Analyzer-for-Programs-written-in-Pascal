@@ -1,0 +1,8 @@
+program TestMath;
+var x, y, z : real;
+begin
+    x := 5;
+    y := 10;
+    z := (x + y) * 2 / 3 - 1;
+    writeln(z);
+end.

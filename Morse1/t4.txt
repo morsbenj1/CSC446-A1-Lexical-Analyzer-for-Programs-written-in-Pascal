@@ -1,0 +1,13 @@
+program TestComments;
+var x, y : integer;
+var z : real;
+begin
+    x := -5.23; {Assign value to x}
+    y := 10; {Assign value to y}
+    {Check if x is less than y}
+    if x < y then
+        writeln('x is less than y');
+    else
+        writeln('x is greater than or equal to y');
+    {End of program}
+end.

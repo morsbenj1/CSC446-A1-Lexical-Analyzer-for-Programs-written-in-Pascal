@@ -1,0 +1,14 @@
+program TestDivMod;
+var x, y, z : integer;
+begin
+    x := 5;
+    y := 10;
+    z := x div y; {Integer division}
+    writeln(z);
+    z := x mod y; {Modulus operation}
+    writeln(z);
+    z := x + y * 2; {Precedence test}
+    writeln(z);
+    z := (x + y) * 2; {Precedence test}
+    writeln(z);
+end.

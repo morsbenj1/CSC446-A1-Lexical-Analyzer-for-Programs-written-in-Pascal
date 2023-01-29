@@ -1,0 +1,5 @@
+program TestString;
+begin
+    writeln('Hello, world!');
+    writeln('This is a string literal test.');
+end.
